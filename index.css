@@ -356,7 +356,7 @@ skills */
         display: flex;
         flex-wrap: wrap;
         max-width: fit-content;
-        margin-top: 100px;
+        margin-top: 50px;
         align-items: center;
         justify-content: center;
         gap: 25px;
@@ -370,7 +370,7 @@ skills */
 
        .hero{
                 position: relative;
-                top: 30px;
+                top: 100px;
        }
 
 
@@ -380,6 +380,7 @@ skills */
          left: 0%;
          display: flex;
          flex-wrap: wrap;
+         gap: 10px;
          flex-direction: column;
          margin: 10px;
       }
@@ -399,15 +400,13 @@ skills */
         display: flex;
         flex-direction: row;
         align-items: center;
-        position: relative;
-        left: 20px;
-        top:10px;
+       
             
       }
 
       .skills{
 
-         margin-top: 70px;
+         margin-top: 150px;
 
       }
 
