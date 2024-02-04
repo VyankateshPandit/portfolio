@@ -294,3 +294,126 @@ skills */
 
 
 
+
+
+
+
+@media only screen and (max-width:400px) {
+    
+    *{
+/*         max-width: 480px;
+        background-color: #2600ff59; */
+    }
+
+    .head{
+            max-width: 700px;
+            margin: 20px;
+    }
+
+    .navbar{
+           display: flex;
+           flex-direction: row;
+            position: relative;
+            left: 0%;
+            top: 110px;
+      max-width: fit-content;
+            border-radius: 10px;
+          height: 50px;
+          padding: 10px;
+          padding-left: 60px;
+          padding-right: 60px;
+
+          width: 170px;
+          gap: 80px;
+           
+            
+    }
+
+
+     .profile{
+        height: 80px;
+        width: 80px;
+        position: relative;
+        left: 20px;
+     }
+ 
+      p{
+        position: relative;
+        left: 130px;
+        bottom: 80px;
+        font-size: 1rem;
+        max-width: fit-content;
+      }
+
+      p:nth-child(2){
+        font-size: medium;
+      }
+      p:nth-child(3){
+        font-size: small;
+      }
+
+     .grid{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: fit-content;
+        margin-top: 100px;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+     }
+
+      h2{
+           position: relative;
+           left: 0px;
+           max-width: fit-content;
+      }
+
+       .hero{
+                position: relative;
+                top: 30px;
+       }
+
+
+      .boxes{
+
+         position: relative;
+         left: 0%;
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: column;
+         margin: 10px;
+      }
+      .box{
+       
+         margin: 30px;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         height: 130px;
+         width: 300px;
+
+      }
+
+      .skill{ max-width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        left: 20px;
+        top:10px;
+            
+      }
+
+      .skills{
+
+         margin-top: 70px;
+
+      }
+
+      .footer{
+         position: relative;
+         left: 0%;
+         align-self: center;
+      }
+}
