@@ -375,10 +375,8 @@ skills */
 
          position: relative;
          left: 0%;
-         display: flex;
-         flex-wrap: wrap;
-         gap: 10px;
-         flex-direction: column;
+      display: flex;
+      flex-direction: column;
          margin: 10px;
       }
       .box{
@@ -387,9 +385,17 @@ skills */
          display: flex;
          flex-direction: row;
          flex-wrap: wrap;
-         height: 130px;
-         width: 300px;
+         height: fit-content;
+         width: fit-content;
 
+      }
+
+      .card{
+                width: 350px;
+      }
+
+      .card-img{   height: 200px;
+                    width: 300px;
       }
 
       .skill{ max-width: fit-content;
