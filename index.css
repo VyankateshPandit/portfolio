@@ -300,10 +300,7 @@ skills */
 
 @media only screen and (max-width:400px) {
     
-    *{
-/*         max-width: 480px;
-        background-color: #2600ff59; */
-    }
+
 
     .head{
             max-width: 700px;
@@ -415,4 +412,9 @@ skills */
          left: 0%;
          align-self: center;
       }
+
+
+
+
+
 }
