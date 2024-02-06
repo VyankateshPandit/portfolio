@@ -6,7 +6,7 @@
 }
 
 body{
-   background-color: #14131a;
+    background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
     
 }
 body::-webkit-scrollbar{
@@ -38,7 +38,7 @@ height: 50px;
 .head{
         margin: 30px;
         
-        background-color: rgb(51, 51, 51);
+        background-color:#1c1b23;
         align-items: center;
         height: 100px ;
         max-width: 79%;
