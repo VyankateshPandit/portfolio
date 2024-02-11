@@ -309,7 +309,13 @@ skills */
         margin: 0%;
         margin-left: 10px;
    }
+  
      
+a:hover{
+    transform: translateY(0px);
+    background: none;
+}
+
     
     .navbar{
            display: flex;
