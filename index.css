@@ -122,6 +122,11 @@ a:hover{
 
 }
 
+
+.navtoggle{
+    display: none;
+}
+
 .navbar::-webkit-scrollbar{
     width: 5px;
     display: none;
