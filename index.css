@@ -306,51 +306,57 @@ skills */
     }
 
     i{
-        margin: 0%;
-        margin-left: 10px;
+        margin: 10px;
    }
-  
      
 a:hover{
     transform: translateY(0px);
     background: none;
 }
 
-    
-    .navbar{
-           display: flex;
-           flex-direction: row;
-            position: relative;
-            left: 0%;
-            top: 110px;
-      max-width: fit-content;
-            border-radius: 10px;
-          height: 60px;
-          padding: 10px;
-          padding-left: 60px;
-          padding-right: 60px;
 
-          width: 170px;
-          gap: 80px;
-           
-            
-    }
+.navbar{
+      
+    position: absolute;
+    left: -1100px;
+    top: 150px;
+    z-index: 1;
+    transition: 0.5s ease-in-out;
+
+}
+
+.navbar.active{
+         left: 100px;
+}
 
 
-     .profile{
-        height: 80px;
-        width: 80px;
-        position: relative;
-        left: 20px;
-     }
- 
-      p{
-        position: relative;
-        left: 130px;
-        bottom: 60px;
-        font-size: 1rem;
-                width: fit-content;
-      }
+.navtoggle{
+         display: block;
+         position: relative;
+        right: 70px;
+}
+
+
+
+.profile{
+height: 80px;
+width: 80px;
+position: relative;
+left: 40px;
+}
+
+
+
+p{
+position: relative;
+left: 150px;
+bottom: 60px;
+font-size: 1rem;
+        width: fit-content;
+}
+
+   
+
 
       p:nth-child(2){
         font-size: medium;

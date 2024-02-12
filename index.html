@@ -20,7 +20,7 @@
 
 
 
-<div  class="navbar flex2">
+<div  class="navbar active flex2" id="navbar">
     <a href="#"> <i class="fa-solid fa-house"></i>
         Home</a>
     <a href="#projects"> <i class="fa-solid fa-folder"></i> Projects</a>
@@ -37,7 +37,10 @@
 
         
         
-
+    <a class="navtoggle" id="nav-btn">
+        <i class="fa-solid fa-bars" style="color: #ffffff;"></i>       
+    
+    </a>
 
 
     </section>
@@ -158,5 +161,17 @@ Gallery Portfolio
 
         <footer></footer>
     </section>
+
+
+    <script>
+
+        const navtoggle = document.getElementById('nav-btn');
+
+        const navbar= document.getElementById('navbar');
+
+        navtoggle.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        })
+    </script>
 </body>
 </html>
