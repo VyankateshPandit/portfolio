@@ -323,15 +323,15 @@ a:hover{
 .navbar{
       
     position: absolute;
-    left: -1100px;
+    left: 100px;
     top: 150px;
     z-index: 1;
-    transition: 0.5s ease-in-out;
+    transition: 0.2s ease-in-out;
 
 }
 
 .navbar.active{
-         left: 100px;
+         left: -1100px;
 }
 
 
