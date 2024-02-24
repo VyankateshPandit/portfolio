@@ -98,6 +98,8 @@ a:hover{
 
 
 
+
+
 .navbar{          
     
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.3);
@@ -438,12 +440,7 @@ font-size: 1rem;
 
       }
 
-      .footer{
-         position: relative;
-         left: 0%;
-         align-self: center;
-      }
-
+ 
 
 
 
