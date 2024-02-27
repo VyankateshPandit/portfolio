@@ -163,7 +163,8 @@
     </section>
 
 
-    <form id="form2" action="https://api.web3forms.com/submit" method="POST" autocomplete="on">
+    <form id="form2" action="https://api.web3forms.com/submit" method="POST" autocomplete="on" name="myForm" onsubmit="return validateForm()" required>
+
 
         <section id="Message" class="footer">
     
@@ -189,6 +190,19 @@
         navtoggle.addEventListener('click', () => {
             navbar.classList.toggle('active');
         })
+
+
+        function validateForm() {
+  var x = document.forms["myForm"]["Name"].value;
+  if (x == "") {
+    alert("Information must be filled out");
+    return false;
+  }else{
+    confirm("Message Has Been Sent ");
+
+
+  }
+}
     </script>
 </body>
 </html>
