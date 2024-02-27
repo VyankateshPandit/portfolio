@@ -7,9 +7,13 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+
+    <!-- font script -->
     <script src="https://kit.fontawesome.com/bb164264f5.js" crossorigin="anonymous"></script>
 
 
+
+    <!-- navbar -->
     
     <section class="head flex">
 
@@ -44,6 +48,9 @@
 
 
     </section>
+
+
+    <!-- project section -->
 
     <section class="hero">
 
@@ -109,6 +116,10 @@
 
     </section>
 
+
+<!-- Skills section -->
+
+
     <section class="skills">
         <h2 id="skill">What I Know</h2>
 
@@ -162,6 +173,7 @@
 
     </section>
 
+     <!-- message feature -->
 
     <form id="form2" action="https://api.web3forms.com/submit" method="POST" autocomplete="on" name="myForm" onsubmit="return validateForm()" required>
 
@@ -183,6 +195,8 @@
 
     <script>
 
+
+            // navbar function
         const navtoggle = document.getElementById('nav-btn');
 
         const navbar= document.getElementById('navbar');
@@ -192,6 +206,8 @@
         })
 
 
+
+        // form function
         function validateForm() {
   var x = document.forms["myForm"]["Name"].value;
   if (x == "") {
