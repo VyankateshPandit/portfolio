@@ -41,7 +41,7 @@ height: 50px;
         background-color:#1c1b23;
         align-items: center;
         height: 100px ;
-        max-width: 79%;
+        width: autos;
         border-radius: 10px;
         /* position: sticky;
         top: 30px; */
@@ -106,7 +106,7 @@ a:hover{
 
     background-color:#1c1b23;
   
-               border-radius: 20px;
+               border-radius: 10px;
            height: 500px;
            width:200px;
            gap:50px;
