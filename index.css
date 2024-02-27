@@ -286,18 +286,56 @@ skills */
 /* footer */
 
 
+/* footer */
+
+
 .footer{
-        font-size: 1rem;
-        color: #888888;
-     position: relative;
-     left: 550px;
-     max-width: 500px;
- 
-      margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+    width: fit-content;
+    gap: 20px;
+    margin-top: 50px;
 
-    }
+}
 
 
+
+.footer > input , textarea{
+position: relative;
+left: 350px;
+border-radius: 10px;
+border: none;
+}
+
+input{
+        height: 50px;
+        width: 500px;
+        padding: 10px;
+}
+
+
+input:active{
+            border: none;
+}
+
+textarea{
+        height: 100px;
+        width: 500px;
+        padding: 10px;
+}
+
+
+#button{
+background-color:#1c1b23;
+width: 100px;
+color: rgb(211, 209, 209);
+font-size: 1rem;
+
+
+
+}
 
 
 
@@ -442,6 +480,40 @@ font-size: 1rem;
 
  
 
+      .footer{
+        margin:30px ;
+        height: 500px;
+      }
+  
+.footer > input , textarea{
+    border-radius: 10px;
+    border: none;
+   display: flex;
+   position: relative;
+   left: 0%;
+
+}
+
+input{
+               height: 50px;
+               width: 350px;
+               padding: 10px;
+}
+
+
+input:active{
+                   border: none;
+}
+
+textarea{
+               height: 100px;
+               width: 350px;
+               padding: 10px;
+}
+
+#button{
+            padding-left: 30px;
+}
 
 
 
