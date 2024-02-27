@@ -520,3 +520,184 @@ textarea{
 }
 
 }
+
+
+@media only screen and (max-width:450px) {
+    
+
+
+    .head{
+            max-width: 700px;
+            margin: 40px;
+    }
+
+    i{
+        margin: 10px;
+   }
+     
+a:hover{
+    transform: translateY(0px);
+    background: none;
+}
+
+
+.navbar{
+      
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    z-index: 1;
+    transition: 0.2s ease-in-out;
+
+}
+
+.navbar.active{
+         left: -1100px;
+}
+
+
+.navtoggle{
+         display: block;
+         position: relative;
+        right: 70px;
+}
+
+
+
+.profile{
+height: 80px;
+width: 80px;
+position: relative;
+left: 40px;
+}
+
+
+
+p{
+position: relative;
+left: 150px;
+bottom: 60px;
+font-size: 1rem;
+        width: fit-content;
+}
+
+   
+
+
+      p:nth-child(2){
+        font-size: medium;
+      }
+      p:nth-child(3){
+        font-size: small;
+      }
+
+     .grid{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: fit-content;
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+     }
+
+      h2{
+           position: relative;
+           left: 0px;
+           max-width: fit-content;
+      }
+
+       .hero{
+                position: relative;
+                top: 100px;
+       }
+
+
+      .boxes{
+
+         position: relative;
+         left: 0%;
+      display: flex;
+      flex-direction: column;
+         margin: 10px;
+        
+      }
+      .box{
+       
+         margin-left: 30px;
+         margin-right: 30px;
+         margin-top: 10px;
+         display: flex;
+         flex-direction: row;
+   
+         flex-wrap: wrap;
+         height: fit-content;
+         width: fit-content;
+
+      }
+
+
+      .card{
+                width: 350px;
+      }
+
+      .card-img{   height: 200px;
+                    width: 330px;
+      }
+
+      .skill{ max-width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+            
+      }
+
+      .skills{
+
+         margin-top: 150px;
+
+      }
+
+ 
+
+      .footer{
+        margin:30px ;
+        height: 500px;
+      }
+  
+.footer > input , textarea{
+    border-radius: 10px;
+    border: none;
+   display: flex;
+   position: relative;
+   left: 0%;
+   align-items: center;
+   justify-content: center;
+
+}
+
+input{
+               height: 50px;
+               width: 340px;
+               padding: 10px;
+}
+
+
+input:active{
+                   border: none;
+}
+
+textarea{
+               height: 100px;
+               width: 340px;
+               padding: 10px;
+}
+
+
+#h1{
+     position: relative;
+     top: 0%;
+}
+
+}
