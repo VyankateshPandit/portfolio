@@ -3,64 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="7cASmcDx0ksuaPzAdSCNKnBiyU3myW4jJkbfDSm0Gh8" />    <title>Vyankatesh Portfolio</title>
+    <title>Vyankatesh Portfolio</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <script src="https://kit.fontawesome.com/bb164264f5.js" crossorigin="anonymous">
 
-    <!-- font script -->
-    <script src="https://kit.fontawesome.com/bb164264f5.js" crossorigin="anonymous"></script>
+    </script>
+
+           
 
 
 
-    <!-- navbar -->
-    
-    <section class="head flex">
+    <section id="navbar" class="navbar  flex">
 
 <div class="profile ">
 <img id="profile" class="profile" src="profile.jpeg">
-<p>Vyankatesh Pandit</p>
 </div>
+<h2 class="name">Vyankatesh Pandit | <a class="navt" id="nav-btn">
+    <i  class=" fa-solid fa-bars"></i>
+    </a> 
+</h2>  
+<a id="navit" href="#skill"><i class="fa-solid fa-code"></i> Skills</a>
+<a href="#message"><i class="fa-solid fa-user"></i> Message</a>
+<a   class="a" href="https://www.linkedin.com/in/vyankatesh-pandit-996a74286"><i class="fa-brands fa-linkedin"></i> Linkdin</a>
+<a   class="a" href="https://github.com/VyankateshPandit"><i class="fa-brands fa-github"></i> GitHub</a>
+
+<a  class="a" href="https://www.twitter.com/@ompandit1511"><i class="fa-brands fa-square-x-twitter"></i> Twitter</a>
 
 
 
-<div  class="navbar active flex2" id="navbar">
-    <a href="#"> <i class="fa-solid fa-house"></i>
-        Home</a>
-    <a href="#"> <i class="fa-solid fa-folder"></i> Projects</a>
-    <a href="#skill"><i class="fa-solid fa-code"></i> Skills</a>
-    <a href="#Message"><i class="fa-solid fa-user"></i> Message</a>
-    <h5>Socials: </h5>
-    <a   class="a" href="https://www.linkedin.com/in/vyankatesh-pandit-996a74286"><i class="fa-brands fa-linkedin"></i> Linkdin</a>
-    <a   class="a" href="https://github.com/VyankateshPandit"><i class="fa-brands fa-github"></i> GitHub</a>
-
-    <a class="a"  href="ompandit1511@gmail.com"><i class="fa-solid fa-envelope"></i> Gmail</a>
-    <a  class="a" href="https://www.twitter.com/@ompandit1511"><i class="fa-brands fa-square-x-twitter"></i> Twitter</a>
-    </div>
-
+       
 
         
-        
-    <a class="navtoggle" id="nav-btn">
-        <i class="fa-solid fa-bars" style="color: #ffffff;"></i>       
-    
-    </a>
 
+
+
+       
 
     </section>
-
-
-    <!-- project section -->
 
     <section class="hero">
 
 
 
-    <h2 id="h1">Projects</h2>
+    <h2 id="h1 ">Projects</h2>
     <div class="grid ">
-
-
-
         <div id="projects" class="card">
             <a href="https://github.com/VyankateshPandit/movers_and_packers.git"> <img class="card-img" src="intro.jpg">
     
@@ -70,11 +58,11 @@
     
     </h3>
             <h4>
-                HTML , CSS , JAVASCRIPT , PHP , MYSQL
+                HTML , CSS , JS , PHP , MYSQL
             </h4>
         </div>
     <div class="card">
-        <a href="https://github.com/VyankateshPandit/clothing-website.git"> <img class="card-img" src="fashionablecom-high-resolution-logo-white.jpeg">
+        <a href="https://github.com/VyankateshPandit/clothing-website.git"> <img class="card-img" src="fashionable.jpg">
         <h3>
             Fashionable.com
         </h3>
@@ -85,8 +73,8 @@
     </div>
    
     <div class="card">
-        <a href="https://github.com/VyankateshPandit/tailwind-.git"> <img class="card-img" src="grocify-high-resolution-logo.png">
-        
+        <a href="https://github.com/VyankateshPandit/tailwind-.git"> <img class="card-img" src="grocify.jpg">
+
         </a>
         <h3>
    Grocify
@@ -117,10 +105,6 @@
 
     </section>
 
-
-<!-- Skills section -->
-
-
     <section class="skills">
         <h2 id="skill">What I Know</h2>
 
@@ -140,20 +124,20 @@
         </div>
         <div class="box">
             <h6 class="title">Backend</h6>
-            <span id="green"  class="skill">PHP</span>
+            <span class="skill">PHP</span>
             <span id="red" class="skill">PYTHON</span>
             <span  id="white" class="skill">JAVA</span>
             <span  class="skill">C</span>
+            
+
 
         </div>
-        <div class="box ">
-            
-            <h6 class="title">Database</h6>  
+        <div class="box">
+
+            <h6 class="title">Database</h6>
             <span class="skill">mySQl</span>
+            <span id="green" class="skill">MONGOdb</span>
             <span id="white" class="skill">POSTgresSQL</span>
-            <span id="green" class="skill">MongoDB</span>
-
-
 
         </div>
         <div class="box">
@@ -170,56 +154,103 @@
 
     </div>
 
-        
+
 
     </section>
 
-     <!-- message feature -->
-
-    <form id="form2" action="https://api.web3forms.com/submit" method="POST" autocomplete="on" name="myForm" onsubmit="return validateForm()" required>
 
 
-        <section id="Message" class="footer">
-    
-    
-             <h2>Message</h2>
-             <input type="hidden" name="access_key" value="5bb1cb5d-89c4-432c-ab99-c5f45445822f">
-    
-             <input type="text"  placeholder=" Your Full Name " name="Name">
-             <input type="text" placeholder=" Your Email ID" name="Email">
-             <textarea placeholder="Write something.." name="Message"></textarea>
-           <input id="button" type="submit" value="Send">
-    
-            </form>
-    
-        </section>
 
+
+
+
+        <form  required>
+
+    <section  class="footer">
+
+
+         <h2 id="message">Message</h2>
+         <input type="hidden" name="access_key" value="5bb1cb5d-89c4-432c-ab99-c5f45445822f">
+
+         <input id="name" type="text"  placeholder=" Your Full Name " >
+         <input id="email" type="text" placeholder=" Your Email ID" >
+         <input id="message" type="text" placeholder=" Write Some Message..." >
+       <input id="button" type="submit" value="Send"  >
+
+        </form>
+
+    </section>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    
     <script>
 
-
-            // navbar function
         const navtoggle = document.getElementById('nav-btn');
 
         const navbar= document.getElementById('navbar');
 
         navtoggle.addEventListener('click', () => {
             navbar.classList.toggle('active');
-        })
+        });
+
+         
 
 
+         const form = document.querySelector("form");
 
-        // form function
-        function validateForm() {
-  var x = document.forms["myForm"]["Name"].value;
-  if (x == "") {
-    alert("Information must be filled out");
-    return false;
-  }else{
-    confirm("Message Has Been Sent ");
+         
 
+
+  function sendmail(){
+    
+    
+    Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "vyankateshpandit1511@gmail.com",
+    Password : "460B0A8FA547E3B6FC76801C11E437D4BB4F",
+    To : 'vyankateshpandit1511@gmail.com',
+    From : 'vyankateshpandit1511@gmail.com',
+    Subject : "New Message From Portfolio",
+    Body : "Name :" + document.getElementById("name").value + "<br> Email :" + document.getElementById("email").value + "<br> Message :" + document.getElementById("message")
+}).then(
+  message => {
+    if(message == "OK"){
+
+        Swal.fire({
+  position: "top-end",
+  icon: "success",
+  title: "Your Message Has Been Sent",
+  showConfirmButton: false,
+  timer: 1500
+});
+    }
+  }
+);
 
   }
-}
+
+  form.addEventListener("submit", (e)=>{
+         e.preventDefault();
+     sendmail();
+
+  });
+
+
+
+
+
+
+
     </script>
 </body>
 </html>
