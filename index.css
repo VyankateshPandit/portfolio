@@ -5,6 +5,18 @@
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+
+#preloader{  
+             height: 100vh;
+             width: 100%;
+             z-index: 100;
+             position: fixed;
+             bottom:0px;
+             background:white url(Walk.gif) no-repeat center center ;
+
+}
+
+
 body{
     background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
     width: auto;
