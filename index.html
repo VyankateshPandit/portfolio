@@ -186,8 +186,10 @@
             <input type="hidden" name="access_key" value="5bb1cb5d-89c4-432c-ab99-c5f45445822f">
 
             <input id="name" type="text" placeholder=" Your Full Name " required>
-            <input id="email" type="text" placeholder=" Your Email ID" required>
-            <input id="message" type="text" placeholder=" Write Some Message..." required>
+            <input id="email" type="email" placeholder=" Your Email ID" required>
+            <input id="mess" type="text" placeholder=" Message ... " required>
+
+
             <input id="button" type="submit" value="Send">
 
     </form>
@@ -234,7 +236,7 @@
                 To: 'vyankateshpandit1511@gmail.com',
                 From: 'vyankateshpandit1511@gmail.com',
                 Subject: "New Message From Portfolio",
-                Body: "Name :" + document.getElementById("name").value + "<br> Email :" + document.getElementById("email").value + "<br> Message :" + document.getElementById("message")
+                Body: "Name :" + document.getElementById("name").value + "<br> Email :" + document.getElementById("email").value + "<br> Message :" + document.getElementById("mess").value  
             }).then(
                 message => {
                     if (message == "OK") {
