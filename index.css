@@ -137,8 +137,9 @@ h5{
 }
 
 .grid{  
-        display: grid;
-        grid-template-columns: 200px 200px 200px 200px ;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
          gap: 50px;
          align-items: center;
          justify-content: center;
@@ -199,6 +200,7 @@ skills */
 .boxes{
      display: flex;
      flex-direction: row;
+     flex-wrap: wrap;
      gap: 30px;
      align-items: center;
      justify-content: center;
@@ -439,6 +441,7 @@ a:hover{
     border-radius: 10px;
     border: none;
    display: flex;
+   flex-wrap: wrap;
    position: relative;
    left: 0%;
 
@@ -446,7 +449,7 @@ a:hover{
 
 input{
                height: 50px;
-               width: 350px;
+               width: auto;
                padding: 10px;
 }
 
