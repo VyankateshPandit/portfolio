@@ -6,15 +6,7 @@
 }
 
 
-#preloader{  
-             height: 100vh;
-             width: 100%;
-             z-index: 100;
-             position: fixed;
-             bottom:0px;
-             background:black url(Walk.gif) no-repeat center center ;
 
-}
 
 
 body{
