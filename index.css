@@ -202,11 +202,18 @@ skills */
 {
    border-radius: 10px; 
   height: 250px;
-  width: 130px;
+  width: 150px;
   background-color:#1c1b23;
   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  overflow: scroll;
   
 }
+
+.box::-webkit-scrollbar{
+
+      display: none;
+}
+
 
 .title{
        font-size: 1rem;
