@@ -341,6 +341,7 @@ textarea{
                 display: flex;
                 flex-direction: row;
                 align-items: center;
+                gap: 30px;
         }
 
    
@@ -466,3 +467,46 @@ textarea{
 
 
 
+@media only screen and (max-width:850px) {
+
+
+     
+    .navbar{
+              display: flex;
+              flex-direction: column;
+              width: screen;
+              overflow:hidden;
+              height:100px;
+             padding: 20px;
+             align-items: self-start;
+             gap: 20px;
+             transition: 1s ease-in-out;
+             
+    }
+
+    a{
+                  transition: none;
+    }
+ 
+     .navbar.active{ 
+                  height: fit-content;
+                  position: relative;
+     }
+      
+     
+       .navt{        
+                    margin-right: 450px;
+                     display: block;
+       }
+
+        .name{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+        }
+
+
+
+
+
+}
