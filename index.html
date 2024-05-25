@@ -1,224 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vyankatesh Portfolio</title>
+    <title>Vyankatesh Pandit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="index.css">
 </head>
+<body class="container max-w-full">
+  <div id="preloader"></div>
+<div id="margin" class="m-10">
 
-<body>
-    <script src="https://kit.fontawesome.com/bb164264f5.js" crossorigin="anonymous">
+          <section id="navbar" class=" flex flex-row flex-wrap justify-between ">
+          <div id="name" class="flex flex-row flex-wrap gap-5">
+            <img src="./imgs/profile.jpeg" class="h-8 w-8 rounded-2xl">
+            <p class="text-xl text-slate-300 drop-shadow-md cursor-pointer" onclick="reload()">Vyankatesh Pandit</p>
+            <a id="nav-btn"><i class=" fa-solid fa-bars"></i></a>
 
-    </script>
+          </div>
 
-    <section id="navbar" class="navbar  flex">
+          <div id="nav-items" class="flex flex-row flex-wrap gap-11 ">
+            <a href="#hero"><p class="text-xl cursor-pointer hover:translate-y-2 ease-in-out duration-300 font-normal">About</p></a>
+            <a href="#pro"><p class="text-xl cursor-pointer hover:translate-y-2 ease-in-out duration-300 font-normal">Projects</p></a>
+            <a href="#skill"><p class="text-xl cursor-pointer hover:translate-y-2 ease-in-out duration-300 font-normal">Skills</p></a>
+            <a href="#contact"><p class="text-xl cursor-pointer hover:translate-y-2 ease-in-out duration-300 font-normal">Contact</p></a>
+          </div>
+          </section>
 
-        <div class="profile ">
-            <img id="profile" class="profile" src="profile.jpeg">
-        </div>
-        <h2 class="name">Vyankatesh Pandit | <a class="navt" id="nav-btn">
-                <i class=" fa-solid fa-bars"></i>
-            </a>
-        </h2>
-        <a id="navit" href="#skill"><i class="fa-solid fa-code"></i> Skills</a>
-        <a href="#message"><i class="fa-solid fa-user"></i> Message</a>
-        <a class="a" href="https://www.linkedin.com/in/vyankatesh-pandit-996a74286"><i
-                class="fa-brands fa-linkedin"></i> Linkdin</a>
-        <a class="a" href="https://github.com/VyankateshPandit"><i class="fa-brands fa-github"></i> GitHub</a>
+          <section id="hero" class=" my-14 flex flex-row flex-wrap justify-between place-items-center">
 
-        <a class="a" href="https://www.twitter.com/@ompandit1511"><i class="fa-brands fa-square-x-twitter"></i>
-            Twitter</a>
+            
+            <div id="about" class="w-3/6 flex flex-col flex-wrap gap-8">
+              <p class=" text-5xl font-bold drop-shadow-md">Vyankatesh Pandit</p>
+              <p class=" text-2xl font-medium">Developer</p>
+              <p class=" text-base font-light text-slate-300">My mission is to push the boundaries of digital innovation. Leveraging a diverse toolkit, I architect robust systems that seamlessly integrate form and function, delivering projects that inspire, innovate, and elevate.</p>
 
-
-
-
-
-
-
-
-
-
-
-    </section>
-
-    <section class="hero">
-
-
-
-        <h2 id="h1 ">Projects</h2>
-        <div class="grid ">
-            <div id="projects" class="card">
-                <a href="https://github.com/VyankateshPandit/movers_and_packers.git"> <img class="card-img"
-                        src="intro.jpg">
-
-                </a>
-                <h3>
-                    Movers And Packers Sys.
-
-                </h3>
-                <h4>
-                    HTML , CSS , JS , PHP , MYSQL
-                </h4>
+              <div id="links" class=" flex flex-row flex-wrap gap-10">
+                <a href="https://www.linkedin.com/in/vyankatesh-pandit-996a74286"><i class="fa-brands fa-linkedin text-3xl"></i></a>
+                <a href="https://github.com/VyankateshPandit"><i class="fa-brands fa-github text-3xl"></i></a>
+                <a href="https://www.twitter.com/@ompandit1511"><i class="fa-brands fa-square-x-twitter text-3xl"></i></a>
+                <i class="fa-solid fa-arrow-left fa-fade"></i><span class="my-1 text-slate-400 font-medium">You can click me</span>                
+                </i>
+              </div>
             </div>
-            <div class="card">
-                <a href="https://github.com/VyankateshPandit/clothing-website.git"> <img class="card-img"
-                        src="fashionable.jpg">
-                    <h3>
-                        Fashionable.com
-                    </h3>
-                    <h4>
-                        HTML , CSS , PHP , SQL
-                    </h4>
-                </a>
+            
+            <div id="img">
+              <img src="./imgs/img.png" class="h-96 w-96">
             </div>
+          </section>
 
-            <div class="card">
-                <a href="https://github.com/VyankateshPandit/tailwind-.git"> <img class="card-img" src="grocify.jpg">
+          <section id="pro" class="my-28 flex flex-col flex-wrap gap-28 place-items-center xs:max-w-full">
 
-                </a>
-                <h3>
-                    Grocify
+             <div>
+              <p class="text-xl text-slate-300 drop-shadow-md font-medium">Projects</p>     
+             </div>
 
-                </h3>
-                <h4>
-                    HTML , TAILWIND CSS
-                </h4>
-            </div>
-            <div class="card">
-                <a href="https://github.com/VyankateshPandit/GuessTheNum.git"> <img class="card-img"
-                        src="guesstheno.jpg">
+           <div  class="flex flex-row flex-wrap gap-10 justify-items-center">
 
-                </a>
-                <h3>
-
-                    Guess The No.
-
-                </h3>
-                <h4>
-                    HTML , CSS , JAVASCRIPT
-                </h4>
-            </div>
-        </div>
-
-        </div>
-
-        </div>
-
-    </section>
-
-    <section class="skills">
-        <h2 id="skill">What I Know</h2>
+             <div id="cards" class="h-56 w-52 p-3 rounded-lg bg-white place-content-between  drop-shadow-lg hover:-translate-y-2 ease-in-out duration-300 ">
+              <a href="https://github.com/VyankateshPandit/movers_and_packers.git">
+              <img src="./imgs/intro.jpg" class="rounded-md">
+               <p class="text-base text-gray-900 font-bold">Movers and packers Sys.</p>
+               <p class="text-xs text-gray-900 font-semibold">HTML , CSS , JS , PHP , MYSQL</p>
+               </a>
+             </div>
 
 
-
-        <div class="boxes">
-
-
-            <div class="box">
-                <h6 class="title">Web Dev</h6>
-                <span class="skill">HTML</span>
-                <span class="skill">CSS</span>
-                <span id="yellow" class="skill">TAILWIND</span>
-                <span id="blue" class="skill">JAVASCRIPT</span>
-                <span class="skill">PHP</span>
-
-
-
-            </div>
-            <div class="box">
-                <h6 class="title">Programming</h6>
-                <span id="red" class="skill">PYTHON</span>
-                <span id="white" class="skill">JAVA</span>
-                <span class="skill">C PROGRAMMING</span>
-
-
-
-            </div>
-            <div class="box">
-
-                <h6 class="title">Database</h6>
-                <span class="skill">mySQl</span>
-                <span id="white" class="skill">POSTgresSQL</span>
-
-            </div>
-            <div class="box">
-                <h6 class="title">DevOps</h6>
-                <span id="green" class="skill">GIT</span>
-                <span id="green" class="skill">GITHUB</span>
-
-                <span class="skill">VERCEL</span>
-                <span id="blue" class="skill">NETLIFY</span>
-
-
-
+             <div id="cards" class="h-56 w-52 p-3 rounded-lg bg-white place-content-between drop-shadow-lg hover:-translate-y-2 ease-in-out duration-300">
+              <a href="https://github.com/VyankateshPandit/clothing-website.git">
+              <img src="./imgs/fashionable.jpg" class="rounded-md">
+              <p class="text-base text-gray-900 font-bold">Fashionable.com</p>
+              <p class="text-xs text-gray-900 font-semibold">HTML , CSS , PHP , MYSQL</p>
+              </a>
             </div>
 
-        </div>
+
+            <div id="cards" class="h-56 w-52 p-3 rounded-lg bg-white place-content-between drop-shadow-lg hover:-translate-y-2 ease-in-out duration-300">
+              <a href="https://github.com/VyankateshPandit/tailwind-.git">
+              <img src="./imgs/grocify.jpg" class="rounded-md">
+              <p class="text-base text-gray-900 font-bold">Grocify</p>
+              <p class="text-xs text-gray-900 font-semibold">HTML , TAILWIND CSS</p>
+              </a>
+            </div>
 
 
+            <div id="cards" class="h-56 w-52 p-3 rounded-lg bg-white place-content-between drop-shadow-lg hover:-translate-y-2 ease-in-out duration-300">
+              <a href="https://github.com/VyankateshPandit/GuessTheNum.git">
+              <img src="./imgs/guesstheno.jpg" class="rounded-md">
+              <p class="text-base text-gray-900 font-bold">Guess the no.</p>
+              <p id="projects" class="text-xs text-gray-900 font-semibold">HTML , CSS , JAVASCRIPT</p>
+              </a>
+            </div>
+          </div>
 
-    </section>
+          </section>
 
+          <section id="skill" class="my-40 flex flex-col flex-wrap gap-20 place-items-center">
+            <div>
+              <p class="text-xl text-slate-300 drop-shadow-md font-medium">What i know</p>     
+             </div>
 
+             <div class="flex flex-row flex-wrap gap-10 place-content-center">
 
+                   <div id="card" class="h-60 w-60 border-0 border-r-2 border-l-2  border-gray-400 flex flex-col text-lg p-6 justify-between place-content-center">
+                    <p class="font-semibold drop-shadow-lg">Web Development -</p>
+                    <a><i class="fa-brands fa-html5 mx-4" style="color: #FFD43B;"></i>HTML</a>
+                    <a><i class="fa-brands fa-css3-alt mx-4" style="color: #74C0FC;"></i>CSS</a>
+                    <a><i class="fa-solid fa-t mx-4" style="color: #74C0FC;"></i>TAILWIND</a>
+                    <a><i class="fa-brands fa-js mx-4"></i>JAVASCRIPT</a>
+                    <a><i class="fa-brands fa-php mx-4"></i>PHP</a>
+                   </div>
 
+                   
+                   <div id="card" class="h-60 w-60 border-0 border-r-2 border-l-2 border-gray-400 flex flex-col text-lg p-6 justify-between place-content-center">
+                    <p class="font-semibold drop-shadow-lg">Programming -</p>
+                    <a><i class="fa-brands fa-python mx-4" style="color: #ffb81f;"></i>PYTHON</a>
+                    <a><i class="fa-brands fa-java mx-4" style="color: #74C0FC;"></i>JAVA</a>
+                    <a><i class="fa-solid fa-copyright mx-4"></i>C Programming</a>
+                   </div>
 
+                     
+                   <div id="card" class="h-60 w-60 border-0 border-r-2 border-l-2  border-gray-400 flex flex-col text-lg p-6 justify-between place-content-center">
+                    <p class="font-semibold drop-shadow-lg">Database -</p>
+                    <a><i class="fa-solid fa-database mx-4"></i>MySql</a>
+                    <a><i class="fa-solid fa-database mx-4"></i>PostgreSql</a>
+                   </div>
 
+                    
+                   <div id="card" class="h-60 w-60 border-0 border-l-2  border-r-2   border-gray-400 flex flex-col text-lg p-6 justify-between place-content-center">
+                    <p class="font-semibold drop-shadow-lg">Dev Ops -</p>
+                    <a><i class="fa-brands fa-git-alt mx-4" style="color: #d12c1a;"></i>GIT</a>
+                    <a><i class="fa-brands fa-github mx-4"></i>GITHUB</a>
+                    <a><i class="fa-solid fa-caret-up mx-4"></i>VERCEL</a>
+                    <a><i class="fa-solid fa-n mx-4"></i>NETLIFY</a>
+                   </div>
+                
+             </div>
+          </section>
 
-    <form required>
+          <form required>
+          <section id="contact" class="my-40 flex flex-col flex-wrap gap-20 place-items-center" >
+            <div>
+              <p class="text-xl text-slate-300 drop-shadow-md font-medium">Contact</p>     
+             </div>
 
-        <section class="footer">
+             <div class="w-auto flex flex-col flex-wrap  gap-10 place-content-center ">
+              <input type="hidden" name="access_key" value="5bb1cb5d-89c4-432c-ab99-c5f45445822f">
 
+              <input id="name"  type="text" placeholder="Your name " class="p-5 h-10 w-auto rounded-xl text-lg text-black" required autocomplete="off">
+              <input  id="email" type="email" placeholder="Your email " class="p-5 h-10 w-auto rounded-xl text-lg text-black" required autocomplete="off">
+               <input  id="mess" type="text" placeholder="Message ... " class="p-5 h-16 w-auto rounded-xl text-lg text-black" required autocomplete="off">
+               <input type="submit" value="Send" class="p-3 h-fit w-fit rounded-xl bg-slate-900 text-lg text-white cursor-pointer hover:bg-black">
+             </div>
+          </section>
+        </form>
+</div>  
 
-            <h2 id="message">Message</h2>
-            <input type="hidden" name="access_key" value="5bb1cb5d-89c4-432c-ab99-c5f45445822f">
+        <script src="https://kit.fontawesome.com/c82ffd1a4a.js" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+          <script src="https://smtpjs.com/v3/smtp.js"></script>
 
-            <input id="name" type="text" placeholder=" Your Full Name " required>
-            <input id="email" type="email" placeholder=" Your Email ID" required>
-            <input id="mess" type="text" placeholder=" Message ... " required>
+          <script>
 
-
-            <input id="button" type="submit" value="Send">
-
-    </form>
-
-    </section>
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
-
-    <script>
-
-        const navtoggle = document.getElementById('nav-btn');
-
-        const navbar = document.getElementById('navbar');
-
-        navtoggle.addEventListener('click', () => {
-            navbar.classList.toggle('active');
-        });
-
-
-
+// email script
 
         const form = document.querySelector("form");
 
-
-
-
-        function sendmail() {
-
-
+          function sendmail() {
             Email.send({
                 Host: "smtp.elasticemail.com",
                 Username: "vyankateshpandit1511@gmail.com",
@@ -241,7 +189,6 @@
                     }
                 }
             );
-
         }
 
         form.addEventListener("submit", (e) => {
@@ -249,20 +196,39 @@
             sendmail();
 
             setTimeout(function(){
-   window.location.reload();
-}, 2000);
+               window.location.reload();
+            }, 2000);
+        });
+
+        function reload(){
+          window.location.reload();
+
+        }
 
 
+        // nav button
+
+        const navtoggle = document.getElementById('nav-btn');
+
+        const navbar = document.getElementById('nav-items');
+
+        navtoggle.addEventListener('click', () => {
+          navbar.classList.toggle('active');
         });
 
 
 
-     
 
+        // loader
 
+        var loader = document.getElementById("preloader");
 
-
+        window.addEventListener("load", function(){
+          loader.style.display="none";
+        })
     </script>
-</body>
 
+ 
+
+</body>
 </html>
