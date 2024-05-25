@@ -13,7 +13,7 @@ background-image: linear-gradient( 94.3deg,  #1a2140 10.9%, #515473 87.1% );
 #preloader{
      height:100%;
      width: 100%;
-     background:#000 url(./preloader.gif) no-repeat center center;
+     background:#000 url(./imgs/preloader.gif) no-repeat center center;
      background-size: 10%;
      position: fixed;
      bottom: 0px;
