@@ -1,234 +1,244 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
     <title>Vyankatesh Pandit</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body class="container max-w-full">
-  <div id="preloader"></div>
-<div id="margin" class="m-10">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Nav -->
+    <nav id="nav">
+      <ul class="container">
+        <li><a href="#top">About</a></li>
+        <li><a href="#work">Skills</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-          <section id="navbar" class=" flex flex-row flex-wrap justify-between ">
-          <div id="name" class="flex flex-row flex-wrap gap-5">
-            <img src="./imgs/profile.jpeg" class="h-8 w-8 rounded-2xl">
-            <p class="text-xl text-slate-300 drop-shadow-md cursor-pointer" onclick="reload()">Vyankatesh Pandit</p>
-            <a id="nav-btn"><i class=" fa-solid fa-bars"></i></a>
-
+    <!-- Home -->
+    <article id="top" class="wrapper style1">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-5-large col-12-medium">
+            <span class="image fit"><img src="images/Picsart_24-12-15_17-53-24-617.jpg" alt="" /></span>
           </div>
-
-          <div id="nav-items" class="flex flex-row flex-wrap gap-11 ">
-            <a href="#hero"><p class="text-xl cursor-pointer hover:translate-y-2 ease-in-out duration-300 font-normal">About</p></a>
-            <a href="#pro"><p class="text-xl cursor-pointer hover:translate-y-2 ease-in-out duration-300 font-normal">Projects</p></a>
-            <a href="#skill"><p class="text-xl cursor-pointer hover:translate-y-2 ease-in-out duration-300 font-normal">Skills</p></a>
-            <a href="#contact"><p class="text-xl cursor-pointer hover:translate-y-2 ease-in-out duration-300 font-normal">Contact</p></a>
+          <div class="col-8 col-7-large col-12-medium">
+            <header>
+              <h1>Hi. I'm <strong>Vyankatesh Pandit</strong>.</h1>
+            </header>
+            <p>
+              A passionate software developer skilled in Python, flask, Data science, Golang and HTML, Tailwind, Bootstrap, JavaScript, PHP, MySQL, PostgreSQL and Git - Github. Experienced in using AI tools and prompt engineering to extract solutions efficiently.
+            </p>
+            <a href="#work" class="button large scrolly"
+              >Learn about what I do</a
+            >
           </div>
-          </section>
+        </div>
+      </div>
+    </article>
 
-          <section id="hero" class=" my-14 flex flex-row flex-wrap justify-between place-items-center">
-
-            
-            <div id="about" class="w-3/6 flex flex-col flex-wrap gap-8">
-              <p class=" text-5xl font-bold drop-shadow-md">Vyankatesh Pandit</p>
-              <p class=" text-2xl font-medium">Developer</p>
-              <p class=" text-base font-light text-slate-300">My mission is to push the boundaries of digital innovation. Leveraging a diverse toolkit, I architect robust systems that seamlessly integrate form and function, delivering projects that inspire, innovate, and elevate.</p>
-
-              <div id="links" class=" flex flex-row flex-wrap gap-10">
-                <a href="https://www.linkedin.com/in/vyankatesh-pandit-996a74286"><i class="fa-brands fa-linkedin text-3xl"></i></a>
-                <a href="https://github.com/VyankateshPandit"><i class="fa-brands fa-github text-3xl"></i></a>
-                <a href="https://www.twitter.com/@ompandit1511"><i class="fa-brands fa-square-x-twitter text-3xl"></i></a>
-                <i class="fa-solid fa-arrow-left fa-fade"></i><span class="my-1 text-slate-400 font-medium">You can click me</span>                
-                </i>
+    <!-- Work -->
+    <article id="work" class="wrapper style2">
+      <div class="container">
+        <header>
+          <h2>Here's all the stuff I do.</h2>
+          <p>My skill set.</p>
+        </header>
+        <div class="col aln-center">
+              <div class="col-4 col-6-medium col-12-small">
+                <section class="box style1">
+                  <h3>Frontend Development:</h3>
+                  <h4>HTML, CSS, JavaScript, Bootstrap, Tailwind CSS</h4>
+                </section>
               </div>
-            </div>
-            
-            <div id="img">
-              <img src="./imgs/img.png" class="h-96 w-96">
-            </div>
-          </section>
-
-          <section id="pro" class="my-28 flex flex-col flex-wrap gap-28 place-items-center xs:max-w-full">
-
-             <div>
-              <p class="text-xl text-slate-300 drop-shadow-md font-medium">Projects</p>     
-             </div>
-
-           <div  class="flex flex-row flex-wrap gap-10 justify-items-center">
-
-             <div id="cards" class="h-56 w-52 p-3 rounded-lg bg-white place-content-between  drop-shadow-lg hover:-translate-y-2 ease-in-out duration-300 ">
-              <a href="https://github.com/VyankateshPandit/movers_and_packers.git">
-              <img src="./imgs/intro.jpg" class="rounded-md">
-               <p class="text-base text-gray-900 font-bold">Movers and packers Sys.</p>
-               <p class="text-xs text-gray-900 font-semibold">HTML , CSS , JS , PHP , MYSQL</p>
-               </a>
-             </div>
-
-
-             <div id="cards" class="h-56 w-52 p-3 rounded-lg bg-white place-content-between drop-shadow-lg hover:-translate-y-2 ease-in-out duration-300">
-              <a href="https://github.com/VyankateshPandit/clothing-website.git">
-              <img src="./imgs/fashionable.jpg" class="rounded-md">
-              <p class="text-base text-gray-900 font-bold">Fashionable.com</p>
-              <p class="text-xs text-gray-900 font-semibold">HTML , CSS , PHP , MYSQL</p>
-              </a>
-            </div>
-
-
-            <div id="cards" class="h-56 w-52 p-3 rounded-lg bg-white place-content-between drop-shadow-lg hover:-translate-y-2 ease-in-out duration-300">
-              <a href="https://github.com/VyankateshPandit/tailwind-.git">
-              <img src="./imgs/phonebook.jpg" class="rounded-md w-fit h-fit">
-              <p class="text-base text-gray-900 font-bold">Phonebook CLI app</p>
-              <p class="text-xs text-gray-900 font-semibold">PYTHON</p>
-              </a>
-            </div>
-
-
-            <div id="cards" class="h-56 w-52 p-3 rounded-lg bg-white place-content-between drop-shadow-lg hover:-translate-y-2 ease-in-out duration-300">
-              <a href="https://github.com/VyankateshPandit/GuessTheNum.git">
-              <img src="./imgs/guesstheno.jpg" class="rounded-md">
-              <p class="text-base text-gray-900 font-bold">Guess the no.</p>
-              <p id="projects" class="text-xs text-gray-900 font-semibold">HTML , CSS , JAVASCRIPT</p>
-              </a>
-            </div>
+              <div class="col-4 col-6-medium col-12-small">
+                <section class="box style1">
+              <h3>Backend Development:</h3>
+              <h4>Python (Flask,FastAPI), Go (Gin), Java (DSA), PHP</h4>
+            </section>
           </div>
+         
+          <div class="col-4 col-6-medium col-12-small">
+            <section class="box style1">
+              <h3>Databases:</h3>
+              <h4>MySQL, PostgreSQL, SQLite</h4>
+            </section>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <section class="box style1">
+              <h3>Tools & Technologies:</h3>
+              <h4>Git & GitHub, Postman</h4>
+            </section>
+          </div>
+        </div>
+        <footer>
+          <p>Impressive right?</p>
+          <a href="#portfolio" class="button large scrolly"
+            >See some of my recent work</a
+          >
+        </footer>
+      </div>
+    </article>
 
-          </section>
+    <!-- Portfolio -->
+    <article id="portfolio" class="wrapper style3">
+      <div class="container">
+        <header>
+          <h2>Here’s some stuff I made recently.</h2>
+          <p>
+            My projects.
+          </p>
+        </header>
+        <div class="row">
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a href="https://github.com/VyankateshPandit/smart-finance-manager.git" class="image featured"
+                ><img src="images/sfm.jpg" alt=""
+              /></a>
+              <h3><a href="https://github.com/VyankateshPandit/smart-finance-manager.git">Smart finance manager</a></h3>
+              <p>Flask, CSS, JavaScript, HTML, Chart.js, MySQL</p>
+            </article>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a href="https://github.com/VyankateshPandit/movers_and_packers.git" class="image featured"
+                ><img src="images/m&p.jpg" alt=""
+              /></a>
+              <h3><a href="https://github.com/VyankateshPandit/movers_and_packers.git">Movers & packers system</a></h3>
+              <p>HTML, CSS, JS, PHP, MYSQL</p>
+            </article>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a href="https://github.com/VyankateshPandit/OCR-web-app.git" class="image featured"
+                ><img src="images/ocr.jpeg" alt=""
+              /></a>
+              <h3><a href="https://github.com/VyankateshPandit/OCR-web-app.git">OCR WebApp              </a></h3>
+              <p>Flask, HTML, CSS, JavaScript, Python libraries</p>
+            </article>
+          </div>
+          <!-- <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a href="#" class="image featured"
+                ><img src="images/pic04.jpg" alt=""
+              /></a>
+              <h3><a href="#">Tempus dolore</a></h3>
+              <p>Ornare nulla proin odio consequat.</p>
+            </article>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a href="#" class="image featured"
+                ><img src="images/pic05.jpg" alt=""
+              /></a>
+              <h3><a href="#">Feugiat aliquam</a></h3>
+              <p>Ornare nulla proin odio consequat.</p>
+            </article>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a href="#" class="image featured"
+                ><img src="images/pic06.jpg" alt=""
+              /></a>
+              <h3><a href="#">Sed amet ornare</a></h3>
+              <p>Ornare nulla proin odio consequat.</p>
+            </article>
+          </div> -->
+        </div>
+        <footer>
+          <p>Check GitHub for more!</p>
+          <a href="#contact" class="button large scrolly"
+            >Get in touch with me</a
+          >
+        </footer>
+      </div>
+    </article>
 
-          <section id="skill" class="my-40 flex flex-col flex-wrap gap-20 place-items-center">
-            <div>
-              <p class="text-xl text-slate-300 drop-shadow-md font-medium">What i know</p>     
-             </div>
-
-             <div class="flex flex-row flex-wrap gap-10 place-content-center">
-
-                   <div id="card" class="h-60 w-60 border-0 border-r-2 border-l-2  border-gray-400 flex flex-col text-lg p-6 justify-between place-content-center">
-                    <p class="font-semibold drop-shadow-lg">Web Development -</p>
-                    <a><i class="fa-brands fa-html5 mx-4" style="color: #FFD43B;"></i>HTML</a>
-                    <a><i class="fa-brands fa-css3-alt mx-4" style="color: #74C0FC;"></i>CSS</a>
-                    <a><i class="fa-solid fa-t mx-4" style="color: #74C0FC;"></i>TAILWIND</a>
-                    <a><i class="fa-brands fa-js mx-4"></i>JAVASCRIPT</a>
-                    <a><i class="fa-brands fa-php mx-4"></i>PHP</a>
-                   </div>
-
-                   
-                   <div id="card" class="h-60 w-60 border-0 border-r-2 border-l-2 border-gray-400 flex flex-col text-lg p-6 justify-between place-content-center">
-                    <p class="font-semibold drop-shadow-lg">Programming -</p>
-                    <a><i class="fa-brands fa-python mx-4" style="color: #ffb81f;"></i>PYTHON</a>
-                    <a><i class="fa-brands fa-java mx-4" style="color: #74C0FC;"></i>JAVA</a>
-                    <a><i class="fa-solid fa-copyright mx-4"></i>C Programming</a>
-                   </div>
-
-                     
-                   <div id="card" class="h-60 w-60 border-0 border-r-2 border-l-2  border-gray-400 flex flex-col text-lg p-6 justify-between place-content-center">
-                    <p class="font-semibold drop-shadow-lg">Database -</p>
-                    <a><i class="fa-solid fa-database mx-4"></i>MySql</a>
-                    <a><i class="fa-solid fa-database mx-4"></i>PostgreSql</a>
-                   </div>
-
-                    
-                   <div id="card" class="h-60 w-60 border-0 border-l-2  border-r-2   border-gray-400 flex flex-col text-lg p-6 justify-between place-content-center">
-                    <p class="font-semibold drop-shadow-lg">Dev Ops -</p>
-                    <a><i class="fa-brands fa-git-alt mx-4" style="color: #d12c1a;"></i>GIT</a>
-                    <a><i class="fa-brands fa-github mx-4"></i>GITHUB</a>
-                    <a><i class="fa-solid fa-caret-up mx-4"></i>VERCEL</a>
-                    <a><i class="fa-solid fa-n mx-4"></i>NETLIFY</a>
-                   </div>
-                
-             </div>
-          </section>
-
-          <form required>
-          <section id="contact" class="my-40 flex flex-col flex-wrap gap-20 place-items-center" >
-            <div>
-              <p class="text-xl text-slate-300 drop-shadow-md font-medium">Contact</p>     
-             </div>
-
-             <div class="w-auto flex flex-col flex-wrap  gap-10 place-content-center ">
-              <input type="hidden" name="access_key" value="5bb1cb5d-89c4-432c-ab99-c5f45445822f">
-
-              <input id="name"  type="text" placeholder="Your name " class="p-5 h-10 w-auto rounded-xl text-lg text-black" required autocomplete="off">
-              <input  id="email" type="email" placeholder="Your email " class="p-5 h-10 w-auto rounded-xl text-lg text-black" required autocomplete="off">
-               <input  id="mess" type="text" placeholder="Message ... " class="p-5 h-16 w-auto rounded-xl text-lg text-black" required autocomplete="off">
-               <input type="submit" value="Send" class="p-3 h-fit w-fit rounded-xl bg-slate-900 text-lg text-white cursor-pointer hover:bg-black">
-             </div>
-          </section>
-        </form>
-</div>  
-
-        <script src="https://kit.fontawesome.com/c82ffd1a4a.js" crossorigin="anonymous"></script>
-          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-          <script src="https://smtpjs.com/v3/smtp.js"></script>
-
-          <script>
-
-// email script
-
-        const form = document.querySelector("form");
-
-          function sendmail() {
-            Email.send({
-                Host: "smtp.elasticemail.com",
-                Username: "vyankateshpandit1511@gmail.com",
-                Password: "460B0A8FA547E3B6FC76801C11E437D4BB4F",
-                To: 'vyankateshpandit1511@gmail.com',
-                From: 'vyankateshpandit1511@gmail.com',
-                Subject: "New Message From Portfolio",
-                Body: "Name :" + document.getElementById("name").value + "<br> Email :" + document.getElementById("email").value + "<br> Message :" + document.getElementById("mess").value  
-            }).then(
-                message => {
-                    if (message == "OK") {
-
-                        Swal.fire({
-                            position: "top-end",
-                            icon: "success",
-                            title: "Your Message Has Been Sent",
-                            showConfirmButton: false,
-                            timer: 1500
-                        });
-                    }
-                }
-            );
-        }
-
-        form.addEventListener("submit", (e) => {
-            e.preventDefault();
-            sendmail();
-
-            setTimeout(function(){
-               window.location.reload();
-            }, 2000);
-        });
-
-        function reload(){
-          window.location.reload();
-
-        }
-
-
-        // nav button
-
-        const navtoggle = document.getElementById('nav-btn');
-
-        const navbar = document.getElementById('nav-items');
-
-        navtoggle.addEventListener('click', () => {
-          navbar.classList.toggle('active');
-        });
-
-
-
-
-        // loader
-
-        var loader = document.getElementById("preloader");
-
-        window.addEventListener("load", function(){
-          loader.style.display="none";
-        })
-    </script>
-
- 
-
-</body>
+    <!-- Contact -->
+    <article id="contact" class="wrapper style4">
+      <div class="container medium">
+        <header>
+          <h2>Contact me</h2>
+          <p>Can't wait to see your message!</p>
+        </header>
+        <div class="row">
+          <div class="col-12">
+            <form method="post" action="#">
+              <div class="row">
+                <div class="col-6 col-12-small">
+                  <input type="text" name="name" id="name" placeholder="Name" />
+                </div>
+                <div class="col-6 col-12-small">
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <ul class="actions">
+                    <li><input type="submit" value="Send Message" /></li>
+                    <li>
+                      <input type="reset" value="Clear Form" class="alt" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-12">
+            <hr />
+            <h3>Find me on ...</h3>
+            <ul class="social">     
+              <li>
+                <a href="https://www.linkedin.com/in/vyankatesh-pandit-996a74286" class="icon brands fa-linkedin-in"
+                  ><span class="label">LinkedIn</span></a
+                >
+              </li>
+          
+              </li>
+              <li>
+                <a href="https://github.com/VyankateshPandit" class="icon brands fa-github"
+                  ><span class="label">Github</span></a
+                >
+              </li>
+              <li>
+                <a href="https://www.twitter.com/@ompandit1511" class="icon brands fa-twitter"
+                  ><span class="label">Twitter</span></a
+                >
+              </li>
+            </ul>
+            <hr />
+          </div>
+        </div>
+        <footer>
+          <ul id="copyright">
+            <li>&copy; vyankateshpandit. All rights reserved.</li>
+          </ul>
+        </footer>
+      </div>
+    </article>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
